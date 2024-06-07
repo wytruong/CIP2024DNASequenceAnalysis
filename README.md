@@ -16,8 +16,8 @@ This project is a DNA sequence analysis tool that calculates the GC content and 
 
 1. **Clone the repository**:
    
-   git clone https://github.com/yourusername/dna-sequence-analysis.git
-   cd dna-sequence-analysis
+   git clone https://github.com/wytruong/CIP2024DNASequenceAnalysis.git
+   cd CIP2024DNASequenceAnalysis
    
 3. **Install the required libraries**:
    
