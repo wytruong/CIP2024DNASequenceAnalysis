@@ -4,21 +4,8 @@ This project is a DNA sequence analysis tool that calculates the GC content and 
 
 ## Features
 
-- **GC Content Calculation**: Computes the percentage of guanine (G) and cytosine (C) in the DNA sequence. The GC content is calculated by determining the percentage of guanine (G) and cytosine (C) bases in the DNA sequence. The formula used is:
-GC Content (%)
-=
-(
-Number of Gs and Cs
-Total number of bases
-)
-×
-100
-GC Content (%)=( 
-Total number of bases
-Number of Gs and Cs
-​
- )×100
-- **ORF Identification**: Identifies open reading frames in the DNA sequence and translates them into proteins.
+- **GC Content Calculation**: Computes the percentage of guanine (G) and cytosine (C) in the DNA sequence. The GC content is calculated by determining the percentage of guanine (G) and cytosine (C) bases in the DNA sequence. The formula used is: GC Content(%) =  ((Number of Gs and Cs)/(Total number of bases)) * 100
+- **ORF Identification**: Identifies open reading frames in the DNA sequence and translates them into proteins. ORFs are sequences of DNA that have the potential to code for proteins. The tool searches for start codons (typically "ATG") and stop codons ("TAA," "TAG," "TGA") to delineate these regions.
 
 ## Requirements
 
