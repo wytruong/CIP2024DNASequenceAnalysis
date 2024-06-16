@@ -1,10 +1,23 @@
 # DNA Sequence Analysis
 
-This project is a DNA sequence analysis tool that calculates the GC content and identifies open reading frames (ORFs) in a given DNA sequence. The project consists of two main files: `main.py` and `dnasequence.py`.
+This project is a DNA sequence analysis tool that calculates the GC content and identifies open reading frames (ORFs) in a given DNA sequence. The DNA Sequence Analysis Tool is a bioinformatics application designed to assist researchers and biologists in analyzing DNA sequences. This tool allows users to input any DNA sequence, including normal or mutated DNA. The program then calculates the GC content percentage and identifies existing Open Reading Frames (ORFs) within the given DNA sequence. This project leverages Python's computational capabilities to provide accurate and efficient DNA sequence analysis. The project consists of two main files: `main.py` and `dnasequence.py`.
 
 ## Features
 
-- **GC Content Calculation**: Computes the percentage of guanine (G) and cytosine (C) in the DNA sequence.
+- **GC Content Calculation**: Computes the percentage of guanine (G) and cytosine (C) in the DNA sequence. The GC content is calculated by determining the percentage of guanine (G) and cytosine (C) bases in the DNA sequence. The formula used is:
+GC Content (%)
+=
+(
+Number of Gs and Cs
+Total number of bases
+)
+×
+100
+GC Content (%)=( 
+Total number of bases
+Number of Gs and Cs
+​
+ )×100
 - **ORF Identification**: Identifies open reading frames in the DNA sequence and translates them into proteins.
 
 ## Requirements
